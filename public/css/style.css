@@ -1,0 +1,13 @@
+html, body {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    background-color: darkgray;
+}
+h1 {
+    color: rgb(44, 41, 37);
+    font-size: 12px;
+}

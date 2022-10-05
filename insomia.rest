@@ -1,0 +1,26 @@
+GET http://localhost:3000/api/v2/pokemon HTTP/1.1
+####
+
+GET http://localhost:3000/api/v2/pokemon/632f7a54ae38edb6c6898ab0 HTTP/1.1
+####
+
+
+POST  http://localhost:3000/api/v2/pokemon/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "no": 2,
+    "name": "venusaurs "
+}
+####
+
+PATCH http://localhost:3000/api/v2/pokemon/632f7a54ae38edb6c6898ab0 HTTP/1.1
+Content-Type: application/json
+
+{
+    "no": 1
+}
+####
+
+DELETE  http://localhost:3000/api/v2/pokemon/633ce250c332b7ccde3b20a0 HTTP/1.1
+####
