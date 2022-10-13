@@ -8,14 +8,22 @@
 2. Run:
 ```
 npm i 
+
 ```
 3. Install nest-cli:
 ```
 npm i -g @nestjs/cli
+
 ```
 4. Up database:
 ```
 docker-compose up -d
+
+```
+5. Recontruction database;
+```
+http://localhost:3000/api/v2/seed
+
 ```
 
 ## Used stack

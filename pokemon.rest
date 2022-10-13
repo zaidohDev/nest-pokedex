@@ -1,8 +1,8 @@
 ###
 GET http://localhost:3000/api/v2/pokemon HTTP/1.1
 
-
-GET http://localhost:3000/api/v2/pokemon/632f7a54ae38edb6c6898ab0 HTTP/1.1
+###
+GET http://localhost:3000/api/v2/pokemon/caterpie HTTP/1.1
 
 
 ###
