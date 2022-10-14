@@ -20,7 +20,14 @@ npm i -g @nestjs/cli
 docker-compose up -d
 
 ```
-5. Recontruction database;
+5. Clone file ``` .env.template``` rename by ``` .env ```
+
+6. Runing - dev
+```
+npm run start: dev
+
+```
+8. Recontruction database;
 ```
 http://localhost:3000/api/v2/seed
 
